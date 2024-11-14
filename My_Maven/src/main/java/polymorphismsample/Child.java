@@ -16,6 +16,7 @@ public class Child extends Parent {
 
 		Child ob=new Child();
 		ob.display();
+	
 		//Parent ob1=new Parent();
 		//ob1.display();
 		
