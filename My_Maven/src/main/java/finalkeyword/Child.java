@@ -6,7 +6,7 @@ public class Child extends Final {
    
 
 	
- public void show()//error
+ //public void show()//error
 	{
 	 
 	 

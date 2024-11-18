@@ -7,7 +7,7 @@ import org.apache.poi.xssf.usermodel.XSSFRow;
 
 public class ExcelSampleMain extends ExcelSample {
 	
-	public static void readAllData() {
+/*	public static void readAllData() {
 	
 	for(int i=0;i< s.getLastRowNum();i++)
 	{
@@ -17,6 +17,10 @@ public class ExcelSampleMain extends ExcelSample {
 			for(int j=0;j<row.getLastCellNum();j++)
 			{
 				XSSFCell cell=row.getCell(j);
+				if(cell!=null)
+				{
+					switch (cell.getCellType())
+				}
 			}
 		}
 	}
@@ -27,6 +31,6 @@ System.out.println(ExcelSample.readStringData(0,0));
 System.out.println(ExcelSample.readIntegerData(0, 1));
 
 	
-	}
+	}*/
 
 }
