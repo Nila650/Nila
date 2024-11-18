@@ -27,7 +27,12 @@ public interface InterfaceSetCollection {
 	System.out.println(s1.isEmpty());
 	System.out.println(s1.size());
 		
-		
+		Set<Integer> s3=new HashSet();
+		s3.add(1);
+		s3.add(2);
+		System.out.println(s3);
+		s3.remove(0);
+		System.out.println(s3);
 		
 	}
 	

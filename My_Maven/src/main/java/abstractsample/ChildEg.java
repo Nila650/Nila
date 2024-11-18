@@ -1,6 +1,6 @@
 package abstractsample;
 
-public class Child extends Abstracteg1  {
+public class ChildEg extends Abstracteg1  {
 
 	public void abstractname()
 	{
@@ -16,11 +16,11 @@ public class Child extends Abstracteg1  {
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-       // Child ob=new Child();
-        //ob.abstractname();
-        Abstracteg1 ob1=new Child();
-        ob1.disp();
-       // ob1.print();
+        ChildEg ob=new ChildEg();
+        ob.abstractname();
+       // Abstracteg1 ob1=new ChildEg();
+      //  ob1.disp();
+        ob.print();
 	}
 
 }
