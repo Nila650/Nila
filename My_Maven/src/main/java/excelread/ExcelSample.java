@@ -1,4 +1,4 @@
-package excelread;
+/*package excelread;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -13,12 +13,15 @@ public class ExcelSample {
 	public static FileInputStream f;
 	public static XSSFWorkbook w;    //fetch workbook
 	public static XSSFSheet s;   //fetch sheet
-
+	public static void initialiseExcel(String filepath,String sheetname) throws IOException
+	{
+		f=new FileInputStream(filepath);
+		w=new XSSFWorkbook(f);
+		s=w.getSheet(sheetname);
+	}
 	public static 	String readStringData(int i,int j) throws IOException
 	{
-		f=new FileInputStream("C:\\Users\\USER\\OneDrive\\Desktop\\ExcelSample.xlsx");
-		w=new XSSFWorkbook(f);
-		s=w.getSheet("Sheet1");
+		
 		XSSFRow r=s.getRow(i);
 		XSSFCell c=r.getCell(j);
 		return c.getStringCellValue();
@@ -27,13 +30,11 @@ public class ExcelSample {
 	}
 	public static double readIntegerData(int i,int j) throws IOException
 	{
-		f=new FileInputStream("C:\\\\Users\\\\USER\\\\OneDrive\\\\Desktop\\\\ExcelSample.xlsx");
-		w=new XSSFWorkbook(f);
-		s=w.getSheet("Sheet1");
+		
 		XSSFRow r=s.getRow(i);
 		XSSFCell c=r.getCell(j);
 		return c.getNumericCellValue(); 
 	}
 	}
 
-
+*/

@@ -1,4 +1,5 @@
-package excelread;
+/*package excelread;
+
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -39,4 +40,4 @@ public static double readIntegerData(int i,int j) throws IOException
 	XSSFCell c=r.getCell(j);
 	return c.getNumericCellValue(); 
 }
-}
+}*/

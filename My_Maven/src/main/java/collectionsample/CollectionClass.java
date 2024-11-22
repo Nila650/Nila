@@ -1,6 +1,7 @@
 package collectionsample;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.LinkedList;
 
 public class CollectionClass {
@@ -64,7 +65,15 @@ ArrayList a=new ArrayList();
 	 System.out.println(l2.size());
 	 System.out.println(l2.contains("bird"));
 	 System.out.println(l2.isEmpty());
-	 
+	 //iterator interface
+	 Iterator it=a.iterator();
+	 while(it.hasNext())
+		 {
+		 System.out.println(it.next());
+	
+		 }
+	 it.remove();
+	System.out.println(a);
 	}
 	
 	}

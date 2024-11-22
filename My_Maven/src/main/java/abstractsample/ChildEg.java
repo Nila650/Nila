@@ -18,8 +18,8 @@ public class ChildEg extends Abstracteg1  {
 		// TODO Auto-generated method stub
         ChildEg ob=new ChildEg();
         ob.abstractname();
-       // Abstracteg1 ob1=new ChildEg();
-      //  ob1.disp();
+        //Abstracteg1 ob1=new ChildEg();
+       // ob1.disp();
         ob.print();
 	}
 
