@@ -1,4 +1,4 @@
-/*package excelread;
+package excelread;
 
 import java.io.IOException;
 
@@ -13,4 +13,3 @@ public class ExcelMain {
 	}
 
 }
-*/
